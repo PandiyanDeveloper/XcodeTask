@@ -1,0 +1,83 @@
+/* navbar profile icon styling */
+
+.profile-btn_icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/* highlight div css */
+.highlihhts-cont {
+  height: 80px;
+  width: 80px;
+}
+
+/* Highlight image css */
+.highlihhts-cont img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+.highlihhts_cont_add_img {
+  border-radius: 50%;
+  border: none !important;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+/* Css for profile picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Custom styles for tabs */
+.nav-link {
+  color: #6c757d !important;
+}
+
+/* Active Tab Styling */
+.nav-link.active {
+  color: #6c757d !important;
+}
+
+/*Post image css  */
+.post-image img {
+  border: 2px solid lightgray;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Styles for the post image container */
+.post-image {
+  position: relative;
+}
+
+/* Icons container */
+.post-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Icons for heart and comment */
+.heart-icon,
+.comment-icon {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Show the icons on hover */
+.post-image:hover .post-icons {
+  opacity: 1;
+}

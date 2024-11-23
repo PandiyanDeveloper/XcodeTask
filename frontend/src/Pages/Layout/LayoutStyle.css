@@ -1,0 +1,47 @@
+.layout_container {
+  display: flex;
+  height: 100vh;
+  /* Full height */
+}
+
+.sidebar {
+  width: 16%;
+  background-color: #ffffff;
+  border-right: 1px solid #dbdbdb;
+  color: rgb(28, 26, 26);
+  padding: 20px;
+  position: fixed;
+  /* Make it fixed on the left */
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  color: #ddd;
+}
+
+.main-content {
+  margin-left: 25%;
+  /* Leave space for the sidebar */
+  margin-right: 10%;
+  padding: 3rem;
+  flex-grow: 1;
+}
+
+h2 {
+  color: #333;
+}

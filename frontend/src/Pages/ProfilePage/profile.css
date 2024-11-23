@@ -1,0 +1,46 @@
+.username {
+    font-size: 25px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.statics {
+    display: flex;
+    gap: 2;
+}
+
+.profile_header_btn {
+    background-color: #EFEFEF;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 7px 15px 7px 15px;
+    border: none;
+}
+
+.profile_header_btn:hover {
+    background-color: #DBDBDB;
+    color: black;
+}
+
+.nav-tabs {
+    position: relative;
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    border-bottom: 2px solid black;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
